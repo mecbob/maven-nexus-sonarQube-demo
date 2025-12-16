@@ -4,8 +4,9 @@
 set -e
 
 # Define SonarQube version and paths
-SONARQUBE_VERSION="9.9.1.69595"
-# SONARQUBE_VERSION="24.12.0.100206"
+SONARQUBE_VERSION="25.12.0.117093"
+#SONARQUBE_VERSION="9.9.1.69595"
+#-old-# SONARQUBE_VERSION="25.12.0.117093"
 SONARQUBE_DOWNLOAD_URL="https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-${SONARQUBE_VERSION}.zip"
 INSTALL_DIR="/opt/sonarqube"
 
